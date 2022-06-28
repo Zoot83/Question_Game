@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>High Scores</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class= "large-font">Please Submit Your Scores</div>
+      <a href="./index.html"><button class="home-button">Home</button></a>
+      
+    </header>
+
+    <main>
+      <section>
+        <div class="card word-guess">
+          
+          <div id="end" class="large-font word-blanks"></div>
+            <div>
+                <h2>Your score was: <span id="finalScore">0</span></h2>
+            </div>
+            <form>
+                <input
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="username"
+                />
+                <button type="submit" id="saveScorebtn" onclick="saveHighScore(event)">Submit</button>
+            </form>
+          <div class="result"></div>
+        </div>
+      </section>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/end.js"></script>
+  </body>
+</html>

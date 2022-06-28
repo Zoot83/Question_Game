@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question Game</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class= "large-font">Marshall's Multiple Choice Mystery</div>
+      <button class="start-button">Start</button>
+      <a href="./highscore.html"><button class="highScores-btn">Highscores</button></a>
+      
+    </header>
+    
+    <main>
+      <section>
+        <div class="card word-guess">
+          
+          <div class="large-font word-blanks">Press Start to begin the game!</div>
+         <div id="buttons" class = "btn-answer"></div>
+          
+        </div>
+      </section>
+
+      <section>
+        <div class="card results">
+          <div class = "win-loss-container">
+          <div>
+          <h2>Last Score: <span class="win">0 </span> </h2>
+        </div>
+          <button class="reset-button">Reset Score</button>
+      </div>
+          <div class= "card timer">
+            <div class = "timer-text">
+            <div class="large-font timer-count">120</div>
+            <h3>seconds remaining</h3>
+          </div>
+        
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
