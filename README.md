@@ -39,6 +39,12 @@ Website: https://github.com/Zoot83/Question_Game
 
 ## Demo
 
+![image](https://user-images.githubusercontent.com/105519029/176320584-c31c62cc-60a9-44c6-812d-94c7741551f6.png)
+
+![image](https://user-images.githubusercontent.com/105519029/176320624-9fc6269c-0016-46f4-8268-bf6c8eb45a1a.png)
+
+![image](https://user-images.githubusercontent.com/105519029/176320655-18a66b6b-354e-4fab-acf8-835add3a9156.png)
+
 
 
 
